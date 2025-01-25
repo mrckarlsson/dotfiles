@@ -1,0 +1,15 @@
+[opener]
+play = [
+	{ run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+open = [
+  {run = 'ristretto -f $1', desc = "Open", for = "linux"}
+]
+
+[open]
+rules = [
+  # Image
+    {mime = "image/*", use = ["open", "feh"]},
+]
+
+
