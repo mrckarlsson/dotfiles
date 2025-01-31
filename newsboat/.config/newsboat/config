@@ -1,3 +1,3 @@
 include ~/.config/newsboat/dark
 
-browser google-chrome
+browser google-chrome-unstable
